@@ -11,7 +11,6 @@
   inputs.src-tweens-master.ref   = "refs/heads/master";
   inputs.src-tweens-master.owner = "RainbowAsteroids";
   inputs.src-tweens-master.repo  = "tweens";
-  inputs.src-tweens-master.dir   = "";
   inputs.src-tweens-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
